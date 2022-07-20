@@ -33,9 +33,9 @@
     <br />
     <a href="https://drawilio.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/Hamziss/Skribblio-Front/issues">Report Bug</a>
+    <a href="https://github.com/Hamziss/Drawilio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Hamziss/Skribblio-Front/issues">Request Feature</a>
+    <a href="https://github.com/Hamziss/Drawilio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -205,15 +205,15 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Hamziss/Skribblio-Front/graphs/contributors
+[contributors-url]: https://github.com/Hamziss/Drawilio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/Hamziss/Skribblio-Front/network/members
+[forks-url]: https://github.com/Hamziss/Drawilio/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/Hamziss/Skribblio-Front/stargazers
+[stars-url]: https://github.com/Hamziss/Drawilio/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/Hamziss/Skribblio-Front/issues
+[issues-url]: https://github.com/Hamziss/Drawilio/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/Hamziss/Skribblio-Front/blob/master/LICENSE.txt
+[license-url]: https://github.com/Hamziss/Drawilio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
