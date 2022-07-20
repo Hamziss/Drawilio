@@ -120,7 +120,7 @@ To get a local copy up you have to first create a cluster in redis cloud .
    ```
 5. start the server and the front with two terminal by running :
    ```
-  npm start
+   npm start
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
