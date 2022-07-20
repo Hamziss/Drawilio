@@ -1,0 +1,14 @@
+.progresscontainer {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.progresscontainer div {
+    width: max(90px, 15%);
+    background-color: #faf1ac;
+    height: 8px;
+    border: 1px solid #000;
+    margin: 0 3vw;
+    z-index: -2;
+}

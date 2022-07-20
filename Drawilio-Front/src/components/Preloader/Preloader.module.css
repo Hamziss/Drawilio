@@ -1,0 +1,98 @@
+.preloader {
+  width: 100%;
+  height: 100vh;
+  z-index: 1500;
+  background: #768ca3;
+  overflow: hidden;
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  align-items: center;
+  animation-duration: 1s;
+  animation-delay: 2.2s;
+  animation-name: glissement;
+  animation-iteration-count: initial;
+  animation-fill-mode: forwards;
+}
+
+.progressbar {
+  border-radius: 60px;
+  overflow: hidden;
+  width: 40%;
+  left: 50%;
+  max-width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.progressbar span {
+  display: block;
+}
+
+.bar {
+  background: #faf1ac;
+}
+
+.progress {
+  animation: loader 2s ease forwards;
+  background: #ffbe00;
+  color: #fff;
+  padding: 5px;
+  width: 0;
+}
+
+.gamename {
+  font-family: "Upheaval TT (BRK)";
+  color: #ffc700;
+  position: relative;
+  top: 30%;
+  font-size: min(12vw, 90px);
+  font-weight: bold;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes glissement {
+  from {
+    top: 0%;
+  }
+  to {
+    top: -120%;
+  }
+}

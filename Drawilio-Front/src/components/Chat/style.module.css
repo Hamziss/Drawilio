@@ -1,0 +1,93 @@
+.messageItem {
+    display: flex;
+    margin: 8px auto;
+}
+
+.myMessage {
+    justify-content: flex-end;
+}
+
+.receivedMessage {
+    justify-content: flex-start;
+}
+
+.messageBodyContainer {
+    width: 100%;
+    background: #b2ddd8;
+}
+
+.messageBody {
+    flex: 1;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: rgb(5, 5, 5);
+    font-size: 23px;
+    font-family: "Upheaval TT (BRK)";
+    word-break: break-word;
+}
+
+.messageUsername {
+    font-size: 1.75rem;
+    padding-left: 12px;
+    color: #ff0000;
+    font-family: "Upheaval TT (BRK)";
+    -webkit-text-stroke: 1px #000;
+}
+
+.myMessageUsername {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.chats {
+    height: 100%;
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+    width: 100%;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    margin-left: 7px;
+    min-width: 221px;
+}
+
+.chats ul::-webkit-scrollbar {
+    display: none;
+}
+
+.chats ul {
+    overflow-y: scroll;
+    justify-content: space-between;
+    -ms-overflow-style: none;
+}
+
+.chats p {
+    padding: 7px;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+#chatInput {
+    height: 34px;
+}
+
+.messageForm {
+    background: white;
+    display: flex;
+    min-height: 55px;
+    align-items: center;
+    margin-top: auto;
+}
+
+.messageForm>button {
+    display: flex;
+    margin-left: 7px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.messageForm>input {
+    margin-left: 7px;
+    width: 86%;
+}

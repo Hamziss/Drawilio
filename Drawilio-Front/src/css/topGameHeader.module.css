@@ -1,0 +1,15 @@
+.topGameBar {
+    margin-bottom: 8px;
+    background-color: #eee;
+    line-height: 58px;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-self: center;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.homeBtn {
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.avatar {
+    vertical-align: middle;
+    height: 7vw;
+    min-height: 70px;
+    min-width: 40px;
+    width: 4vw;
+    max-height: 112px;
+    max-width: 66px;
+}

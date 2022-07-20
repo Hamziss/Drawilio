@@ -1,0 +1,36 @@
+.userContainer {
+    height: 100%;
+    background-color: #c4c4c4;
+}
+
+.userlist {
+    display: flex;
+    margin: 8px;
+    padding: 0;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.userbox {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px;
+}
+
+.failingStarName {
+    color: #000;
+    font-size: 2vw;
+    margin-top: 5px;
+    font-family: "Upheaval TT (BRK)";
+}
+
+.score {
+    font-family: "Upheaval TT (BRK)";
+    font-weight: 400;
+    font-size: 34px;
+    color: #e61a10;
+    -webkit-text-stroke: 1px #000;
+}
