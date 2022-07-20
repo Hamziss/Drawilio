@@ -57,11 +57,10 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+
   </ol>
 </details>
 
@@ -119,7 +118,10 @@ To get a local copy up you have to first create a cluster in redis cloud .
    REDIS_ENDPOINT_URI= your redis endpoint uri
    REDIS_PASSWORD= your redis cluster password
    ```
-
+5. start the server and the front with two terminal by running :
+   ```
+  npm start
+   ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
