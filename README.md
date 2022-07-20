@@ -67,7 +67,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-![Peek 2022-06-12 03-12](Drawilio-Front/public/file.jpg)
+![Peek 2022-06-12 03-12](Drawilio-Front/public/preview.gif)
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Drawilio is a drawing multiplayer game that you can play with your friends :smile:.
