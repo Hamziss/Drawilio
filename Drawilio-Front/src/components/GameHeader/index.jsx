@@ -27,18 +27,7 @@ const GameHeader = ({
           </p>
         </div>
       )}
-      {/* <div>
-        {gameId !== undefined ? (
-          <div>
-            {!gameStarted
-              ? "To start playing  share Room Name with your friend "
-              : ""}
-            :{gameId}
-          </div>
-        ) : (
-          ""
-        )}
-      </div> */}
+
       {currentWord && (
         <div>
           Current word

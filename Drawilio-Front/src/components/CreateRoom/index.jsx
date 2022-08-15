@@ -1,9 +1,7 @@
-import { useNavigate } from "react-router-dom";
 import { ReactComponent as NextBtn } from "../../Assets/svg/NextButton.svg";
 import { BackButton } from "../BackButton";
 
 const CreateRoom = (props) => {
-  let navigate = useNavigate();
   function inputHandler(event) {
     localStorage.setItem("roomId", event.target.value.toLowerCase());
     if (event.key === "Enter" && event.target.value !== "") {

@@ -11,9 +11,6 @@ const Chat = (props) => {
     }
   };
 
-  /**
-   * Call scrollToBottom function on every new message
-   */
   useEffect(() => {
     scrollToBottom();
   }, [props.chatMessages]);
