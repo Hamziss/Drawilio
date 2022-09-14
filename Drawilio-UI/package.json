@@ -12,7 +12,7 @@
         "react-lazy-load-image-component": "^1.5.5",
         "react-loader-spinner": "^5.1.5",
         "react-router-dom": "^6.3.0",
-        "react-scripts": "4.0.2",
+        "react-scripts": "5.0.1",
         "socket.io-client": "^3.1.1",
         "swiper": "^8.0.7",
         "web-vitals": "^1.1.0"
