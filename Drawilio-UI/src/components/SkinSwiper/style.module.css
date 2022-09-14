@@ -1,0 +1,11 @@
+.swiperslide:nth-child(8) img {
+    width: 71%;
+}
+
+.swiperslide:nth-child(7) img {
+    width: 55%;
+}
+
+.swiperslide:nth-child(4) img {
+    width: 40%;
+}

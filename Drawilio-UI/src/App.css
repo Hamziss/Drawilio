@@ -1,0 +1,534 @@
+@font-face {
+    font-family: "Upheaval TT (BRK)";
+    src: url("./Assets/upheaval-tt-brk.upheaval-tt-brk.ttf") format("truetype");
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #a4bbd6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+code {
+    font-family: source-code-pro, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+}
+
+.App {
+    text-align: center;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    outline: none;
+    border-radius: 5px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.load {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.homebutton {
+    font-family: "Upheaval TT (BRK)";
+    position: relative;
+    margin: 0 0 0 35px;
+}
+
+.homebutton svg {
+    width: 37vw;
+    max-width: 400px;
+}
+
+.inputContainer {
+    height: 4.8vw;
+    width: 40vw;
+    max-width: 497px;
+    min-width: 275px;
+    min-height: 50px;
+    background-color: #ffbe00;
+    display: flex;
+    border: 1px solid #000;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.roomName {
+    margin: 0px 2.5vw 0 0;
+    font-family: "Upheaval TT (BRK)";
+    font-size: 32px;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+
+input[type="text"].inputNickname {
+    font-family: "Upheaval TT (BRK)";
+    text-align: center;
+    font-size: 3vw;
+    height: 4vw;
+    min-height: 45px;
+    min-width: 269px;
+    max-width: 480px;
+    border: none;
+    width: 35vw;
+    background-color: #faf1ac;
+}
+
+input {
+    text-decoration: none;
+    border: none;
+    all: unset;
+}
+
+.swiper {
+    width: 100%;
+    max-width: 650px !important;
+    max-height: 450px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    min-width: 51vw;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide>span {
+    display: flex !important;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 50%;
+}
+
+.username {
+    font-family: "Upheaval TT (BRK)";
+    font-size: clamp(18px, 12vw, 65px);
+    margin-top: 21px;
+    color: #faf1ac;
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke: 0.2px #000;
+}
+
+.RoomsContainer {
+    margin-top: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.RoomsContainer div:nth-child(2) {
+    margin-left: 5vw;
+}
+
+.createcontainer,
+.JoinContainer {
+    height: 4.8vw;
+    width: 30%;
+    min-width: 275px;
+    min-height: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbe00;
+    border: 1px solid #000;
+}
+
+.createcontainer>a,
+.JoinContainer>a {
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 95%;
+    justify-content: center;
+}
+
+div.RoomsButton {
+    height: 3.5vw;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45px;
+    min-width: 269px;
+    font-family: "Upheaval TT (BRK)";
+    font-size: 3vw;
+    background-color: #faf1ac;
+}
+
+div.RoomsButton span {
+    opacity: 0.5;
+    font-family: "Upheaval TT (BRK)";
+}
+
+.CreateWrapper {
+    display: flex;
+    margin-top: 250px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputRoomContainer {
+    height: 4.8vw;
+    width: 40vw;
+    max-width: 597px;
+    min-width: 275px;
+    min-height: 50px;
+    background-color: #ffbe00;
+    display: flex;
+    border: 1.5px solid #000;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"].InputRoom {
+    font-family: "Upheaval TT (BRK)";
+    text-align: center;
+    font-size: 3vw;
+    height: 4vw;
+    color: rgba(0, 0, 0, 0.76);
+    min-height: 45px;
+    min-width: 269px;
+    max-width: 578px;
+    border: none;
+    width: 45vw;
+    background-color: #faf1ac;
+}
+
+.gamename {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gamename>svg {
+    width: 71%;
+    min-width: 340px;
+}
+
+.CreateHero {
+    font-family: "Upheaval TT (BRK)";
+    font-size: clamp(43px, 11vw, 130px);
+    color: #faf1ac;
+    white-space: nowrap;
+    position: absolute;
+    transform: translate(50%, 0);
+    margin-top: 200px;
+    right: 50%;
+    -webkit-text-stroke: 0.001px #000;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    background-color: #768ca3d2;
+    top: 0;
+}
+
+#NextBtn {
+    margin-top: 50px;
+    display: none;
+}
+
+#haj {
+    width: 39%;
+}
+
+.ChosenSkin {
+    margin-top: 60px;
+    height: 34vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 429px;
+    align-items: center;
+}
+
+.StartUserName {
+    position: unset;
+    right: unset;
+    font-size: clamp(30px, 12vw, 120px);
+    transform: unset;
+    margin: 34px 0;
+}
+
+.chat-room-container {
+    display: flex;
+    flex-direction: column;
+    background: #c4c4c4;
+}
+
+.chat-room-top-bar {
+    display: flex;
+    align-items: center;
+}
+
+.chat-room-top-bar h1 {
+    flex: 1;
+}
+
+.messages-container {
+    flex: 1;
+    min-height: 100px;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 8px;
+}
+
+.messages-container::-webkit-scrollbar {
+    display: none;
+}
+
+.messages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.playContainer {
+    display: flex;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playHeader {
+    width: 95%;
+    height: 65px;
+    margin-top: 73px;
+    background: #c4c4c4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.playHeader>div:nth-child(1) {
+    width: 288px;
+    display: flex;
+    flex: 1;
+    border-right: 0px;
+    justify-content: flex-start;
+    border: 3px solid #000000;
+    height: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-right: auto;
+    align-items: center;
+    font-family: "Upheaval TT (BRK)";
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.playHeader>div:nth-child(2) {
+    width: 348px;
+    background: white;
+    border-right: 0;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Upheaval TT (BRK)";
+}
+
+.playHeader>div:nth-child(1)>p>span {
+    font-family: "Upheaval TT (BRK)";
+    padding-left: 5px;
+    font-size: 34px;
+    color: #e61a10;
+    -webkit-text-stroke: 1px #000;
+}
+
+.playHeader>div:nth-child(3) {
+    width: 121px;
+    background: white;
+    border-right: 0px;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Upheaval TT (BRK)";
+}
+
+.playHeader>div:nth-child(4) {
+    width: 121px;
+    background: white;
+    border-right: 0px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    height: 100%;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Upheaval TT (BRK)";
+}
+
+.playHeader>div:nth-child(5) {
+    width: 62px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #000000;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.playHeader>div:nth-child(5)>img {
+    height: fit-content;
+    cursor: pointer;
+}
+
+.playArea {
+    height: 80%;
+    display: flex;
+    width: 95%;
+}
+
+.failingStar {
+    height: 100%;
+    width: 280px;
+    background: #c4c4c4;
+    border: 1px solid #000;
+    overflow-y: scroll;
+}
+
+.failingStar::-webkit-scrollbar {
+    display: none;
+}
+
+.failingStarContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.stars {
+    width: 99%;
+    font-family: "Upheaval TT (BRK)";
+    height: 50px;
+    display: flex;
+    font-size: 1.2vw;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 1.2px solid #000;
+}
+
+.gameHero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    margin: 0px 0px 0px 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.canvasArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.outils {
+    height: 80px;
+    width: 100%;
+    background: #c4c4c4;
+    min-height: 61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+}
+
+.outils button {
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .two {
+        font-size: 35px;
+    }
+    input[type="text"] {
+        font-size: 20px;
+    }
+    div.inputRooms {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    .RoomsContainer {
+        flex-direction: column;
+    }
+    .RoomsContainer>div:nth-child(2) {
+        margin: 20px 0 0 0;
+    }
+}
