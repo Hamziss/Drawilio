@@ -18,8 +18,8 @@ app.use((req, res, next) => {
 });
 
 
-app.get("/ping", (req, res) => {
-    res.send("pong");
+app.get("/hello", (req, res) => {
+    res.send("world");
 });
 
 ioServer.listen(process.env.PORT, () => {
