@@ -64,8 +64,6 @@
 
 ## About The Project
 ![Peek ](Drawilio-Front/public/preview.gif)
-
-
 Drawilio is a drawing multiplayer game that you can play with your friends :smile:.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
