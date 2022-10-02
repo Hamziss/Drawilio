@@ -86,8 +86,6 @@ To get a local copy up you have to first create a cluster in redis cloud .
 
 ### Prerequisites
 
-
-- npm
   ```sh
   npm install npm@latest -g
   ```
