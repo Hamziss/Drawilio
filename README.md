@@ -70,9 +70,7 @@ Drawilio is a drawing multiplayer game that you can play with your friends :smil
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
-
-Major frameworks/libraries used in the project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+### Tech Stack used
 
 - [React.js](https://reactjs.org/)
 - [socket.io](https://socket.io/)
